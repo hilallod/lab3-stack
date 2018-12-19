@@ -3,5 +3,5 @@
 
 TEST(TStack,)
 {
-	
+	system("pause");
 }
