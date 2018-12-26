@@ -66,9 +66,9 @@ namespace Project3 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(336, 228);
+			this->label1->Location = System::Drawing::Point(574, 91);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(31, 29);
 			this->label1->TabIndex = 0;
@@ -77,40 +77,39 @@ namespace Project3 {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(263, 171);
+			this->button1->Location = System::Drawing::Point(382, 89);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(67, 34);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"-------\r\n-------\r\n\r\n";
+			this->button1->Text = L"====\r\n====\r\n\r\n";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(223, 130);
+			this->textBox1->Location = System::Drawing::Point(40, 97);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(150, 20);
+			this->textBox1->Size = System::Drawing::Size(327, 20);
 			this->textBox1->TabIndex = 2;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(204)));
-			this->label2->Location = System::Drawing::Point(161, 84);
+			this->label2->Location = System::Drawing::Point(34, 53);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(276, 31);
+			this->label2->Size = System::Drawing::Size(329, 31);
 			this->label2->TabIndex = 3;
-			this->label2->Text = L"Ââåäèòå âûðàæåíèå:";
+			this->label2->Text = L"ÂÂÅÄÈÒÅ ÂÛÐÀÆÅÍÈÅ";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 20.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(217, 225);
+			this->label3->Location = System::Drawing::Point(455, 89);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(113, 31);
 			this->label3->TabIndex = 4;
@@ -120,8 +119,7 @@ namespace Project3 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::Color::DimGray;
-			this->ClientSize = System::Drawing::Size(614, 461);
+			this->ClientSize = System::Drawing::Size(729, 192);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->textBox1);
